@@ -1,0 +1,46 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="alx_connect",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi>=0.68.0",
+        "uvicorn>=0.15.0",
+        "python-dotenv>=0.19.0",
+        "pydantic>=2.0.0",
+        "numpy>=1.21.0",
+        "pandas>=1.3.0",
+        "scikit-learn>=1.0.0",
+        "langchain>=0.1.0",
+        "langchain-groq>=0.1.0",
+        "langchain-community>=0.0.10",
+        "langchain-huggingface>=0.0.5",
+        "faiss-cpu>=1.7.0",
+        "groq>=0.1.0",
+        "llama-parse>=0.1.0",
+        "nest-asyncio>=1.5.0",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-asyncio>=0.18.0",
+            "pytest-cov>=4.0.0",
+            "black>=22.0.0",
+            "isort>=5.10.0",
+            "flake8>=4.0.0",
+        ],
+    },
+    author="ALX Connect Team",
+    author_email="team@alxconnect.com",
+    description="ALX Connect Hub - Mentor matching and interview coaching platform",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/yourusername/alx-connect",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.8",
+) 

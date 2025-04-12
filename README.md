@@ -101,7 +101,7 @@ alx_connect/
 #### Using pip
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/alx-connect.git
+git clone https://github.com/austinLorenzMccoy/alx-connect.git
 cd alx-connect
 
 # Create and activate virtual environment
@@ -183,7 +183,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **ALX Connect Team** - *Initial work* - [ALX Connect](https://github.com/yourusername)
+- **ALX Connect Team** - *Initial work* - [ALX Connect](https://github.com/austinLorenzMccoy/alx-connect)
 
 ## 🙏 Acknowledgments
 
